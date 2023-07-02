@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --primary: #2f2f2f;
+  --secondary: #dddddd;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #2f2f2f;
+  color: white;
+  padding: 0 20px;
+}
+
+.logo,
+.nav-menu a {
+  color: white;
+}
+
+.logo {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.nav-menu a {
+  margin-left: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.hero-wrap {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-wrap img {
+  max-width: 250px;
+}
+
+.hero-wrap h1 {
+  font-size: 10vmax;
+  letter-spacing: 10px;
+}
+
+.hero-wrap span {
+  color: rgb(202, 161, 11);
+}
+
+.hero-wrap p {
+  font-size: 5vmax;
+  font-weight: 100;
+}
+
+.about {
+  background-color: var(--secondary);
+  min-height: 90vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.container {
+  padding: 0 10%;
+  font-size: 4vmin;
+}
+
+.container h2 {
+  margin-bottom: 25px;
+}
+
+.gallery {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin: 100px 0;
+  font-size: 5vmin;
+}
+
+.images-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.image img {
+  max-width: 300px;
+}
+
+.form {
+  min-height: 120vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+}
+
+form h2 {
+  margin-bottom: 40px;
+}
+
+input {
+  display: block;
+  min-width: 70vw;
+  padding: 20px;
+  margin-bottom: 45px;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  display: inline-block;
+  min-width: 50vw;
+  min-height: 5vh;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(218, 191, 95);
+  color: white;
+}
+
+footer {
+  min-height: 20vh;
+  padding: 20px;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.footer-logo {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-menu a {
+  display: block;
+  text-align: end;
+  color: var(--secondary);
+  margin-bottom: 10px;
+}

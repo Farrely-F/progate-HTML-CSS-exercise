@@ -1,0 +1,9 @@
+@media screen and (max-width: 770px) {
+  nav .nav-menu {
+    display: none;
+  }
+
+  .footer-menu a {
+    text-align: start;
+  }
+}
